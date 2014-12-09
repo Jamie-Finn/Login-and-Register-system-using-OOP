@@ -5,10 +5,10 @@ session_start();
 
 $GLOBALS['config'] = array(
 	'mysql' => array(
-		'host' => 'localhost',
-		'username' => 'homestead',
-		'password' => 'secret',
-		'db' => 'ooplogin'
+		'host' => 'HOST NAME GOES HERE',
+		'username' => 'USERNAME GOES HERE',
+		'password' => 'PASSWORD GOES HERE',
+		'db' => 'DATABASE NAME GOES HERE'
 	),
 	'remember' => array(
 		'cookie_name' => 'hash',
