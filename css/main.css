@@ -1,0 +1,37 @@
+body {
+	background: #eceff0;
+}
+
+body,
+input {
+	font: 1.3em Helvetica, Arial, sans-serif;
+}
+
+.container {
+	background-color: #ffffff;
+	width: 100%;
+	max-width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	/* CSS Vendor prefixes not here as application is not live but will need to be included if it does or if you use my code*/
+}
+
+.field {
+	padding: 10px;
+}
+
+input {
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+}
+input:hover {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+	padding: 7px 20px;
+}
+
