@@ -1,6 +1,6 @@
 <?php
 
-// Initialization file for connecting to your database, autoloading the classes and to functionality to remember user.
+// Initialization file for connecting to your database, autoloading the classes and functionality to remember user.
 session_start();
 
 $GLOBALS['config'] = array(
